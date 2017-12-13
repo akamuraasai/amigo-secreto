@@ -1,0 +1,966 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagina de Login deve renderizar sem problemas 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Grid
+        style={
+                Object {
+                        "height": "100%",
+                      }
+        }
+        textAlign="center"
+        verticalAlign="middle"
+>
+        <GridColumn
+                style={
+                        Object {
+                                "maxWidth": 450,
+                              }
+                }
+        >
+                <Header
+                        as="h4"
+                        textAlign="center"
+                >
+                        <Header
+                                as="h1"
+                                color="orange"
+                                style={
+                                        Object {
+                                                "marginBottom": 16,
+                                              }
+                                }
+                        >
+                                Amigo Secreto
+                        </Header>
+                         Acesse sua conta
+                </Header>
+                <Form
+                        as="form"
+                        size="large"
+                >
+                        <Segment
+                                stacked={true}
+                        >
+                                <FormInput
+                                        as={[Function]}
+                                        control={[Function]}
+                                        fluid={true}
+                                        icon="user"
+                                        iconPosition="left"
+                                        id="email"
+                                        onChange={[Function]}
+                                        placeholder="E-mail"
+                                />
+                                <FormInput
+                                        as={[Function]}
+                                        control={[Function]}
+                                        fluid={true}
+                                        icon="lock"
+                                        iconPosition="left"
+                                        id="pass"
+                                        onChange={[Function]}
+                                        placeholder="Senha"
+                                        type="password"
+                                />
+                                <Button
+                                        as="button"
+                                        color="orange"
+                                        fluid={true}
+                                        size="large"
+                                >
+                                        Entrar
+                                </Button>
+                        </Segment>
+                </Form>
+                <Message>
+                        Novo usuário? 
+                        <a
+                                href="#"
+                        >
+                                Cadastre-se
+                        </a>
+                </Message>
+        </GridColumn>
+</Grid>,
+      "className": "login-form",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <GridColumn
+          style={
+                    Object {
+                              "maxWidth": 450,
+                            }
+          }
+>
+          <Header
+                    as="h4"
+                    textAlign="center"
+          >
+                    <Header
+                              as="h1"
+                              color="orange"
+                              style={
+                                        Object {
+                                                  "marginBottom": 16,
+                                                }
+                              }
+                    >
+                              Amigo Secreto
+                    </Header>
+                     Acesse sua conta
+          </Header>
+          <Form
+                    as="form"
+                    size="large"
+          >
+                    <Segment
+                              stacked={true}
+                    >
+                              <FormInput
+                                        as={[Function]}
+                                        control={[Function]}
+                                        fluid={true}
+                                        icon="user"
+                                        iconPosition="left"
+                                        id="email"
+                                        onChange={[Function]}
+                                        placeholder="E-mail"
+                              />
+                              <FormInput
+                                        as={[Function]}
+                                        control={[Function]}
+                                        fluid={true}
+                                        icon="lock"
+                                        iconPosition="left"
+                                        id="pass"
+                                        onChange={[Function]}
+                                        placeholder="Senha"
+                                        type="password"
+                              />
+                              <Button
+                                        as="button"
+                                        color="orange"
+                                        fluid={true}
+                                        size="large"
+                              >
+                                        Entrar
+                              </Button>
+                    </Segment>
+          </Form>
+          <Message>
+                    Novo usuário? 
+                    <a
+                              href="#"
+                    >
+                              Cadastre-se
+                    </a>
+          </Message>
+</GridColumn>,
+        "style": Object {
+          "height": "100%",
+        },
+        "textAlign": "center",
+        "verticalAlign": "middle",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Header
+              as="h4"
+              textAlign="center"
+>
+              <Header
+                            as="h1"
+                            color="orange"
+                            style={
+                                          Object {
+                                                        "marginBottom": 16,
+                                                      }
+                            }
+              >
+                            Amigo Secreto
+              </Header>
+               Acesse sua conta
+</Header>,
+            <Form
+              as="form"
+              size="large"
+>
+              <Segment
+                            stacked={true}
+              >
+                            <FormInput
+                                          as={[Function]}
+                                          control={[Function]}
+                                          fluid={true}
+                                          icon="user"
+                                          iconPosition="left"
+                                          id="email"
+                                          onChange={[Function]}
+                                          placeholder="E-mail"
+                            />
+                            <FormInput
+                                          as={[Function]}
+                                          control={[Function]}
+                                          fluid={true}
+                                          icon="lock"
+                                          iconPosition="left"
+                                          id="pass"
+                                          onChange={[Function]}
+                                          placeholder="Senha"
+                                          type="password"
+                            />
+                            <Button
+                                          as="button"
+                                          color="orange"
+                                          fluid={true}
+                                          size="large"
+                            >
+                                          Entrar
+                            </Button>
+              </Segment>
+</Form>,
+            <Message>
+              Novo usuário? 
+              <a
+                            href="#"
+              >
+                            Cadastre-se
+              </a>
+</Message>,
+          ],
+          "style": Object {
+            "maxWidth": 450,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "h4",
+              "children": Array [
+                <Header
+                  as="h1"
+                  color="orange"
+                  style={
+                                    Object {
+                                                      "marginBottom": 16,
+                                                    }
+                  }
+>
+                  Amigo Secreto
+</Header>,
+                " Acesse sua conta",
+              ],
+              "textAlign": "center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "h1",
+                  "children": "Amigo Secreto",
+                  "color": "orange",
+                  "style": Object {
+                    "marginBottom": 16,
+                  },
+                },
+                "ref": null,
+                "rendered": "Amigo Secreto",
+                "type": [Function],
+              },
+              " Acesse sua conta",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "form",
+              "children": <Segment
+                stacked={true}
+>
+                <FormInput
+                                as={[Function]}
+                                control={[Function]}
+                                fluid={true}
+                                icon="user"
+                                iconPosition="left"
+                                id="email"
+                                onChange={[Function]}
+                                placeholder="E-mail"
+                />
+                <FormInput
+                                as={[Function]}
+                                control={[Function]}
+                                fluid={true}
+                                icon="lock"
+                                iconPosition="left"
+                                id="pass"
+                                onChange={[Function]}
+                                placeholder="Senha"
+                                type="password"
+                />
+                <Button
+                                as="button"
+                                color="orange"
+                                fluid={true}
+                                size="large"
+                >
+                                Entrar
+                </Button>
+</Segment>,
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    fluid={true}
+                    icon="user"
+                    iconPosition="left"
+                    id="email"
+                    onChange={[Function]}
+                    placeholder="E-mail"
+/>,
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    fluid={true}
+                    icon="lock"
+                    iconPosition="left"
+                    id="pass"
+                    onChange={[Function]}
+                    placeholder="Senha"
+                    type="password"
+/>,
+                  <Button
+                    as="button"
+                    color="orange"
+                    fluid={true}
+                    size="large"
+>
+                    Entrar
+</Button>,
+                ],
+                "stacked": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": [Function],
+                    "control": [Function],
+                    "fluid": true,
+                    "icon": "user",
+                    "iconPosition": "left",
+                    "id": "email",
+                    "onChange": [Function],
+                    "placeholder": "E-mail",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": [Function],
+                    "control": [Function],
+                    "fluid": true,
+                    "icon": "lock",
+                    "iconPosition": "left",
+                    "id": "pass",
+                    "onChange": [Function],
+                    "placeholder": "Senha",
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "as": "button",
+                    "children": "Entrar",
+                    "color": "orange",
+                    "fluid": true,
+                    "size": "large",
+                  },
+                  "ref": null,
+                  "rendered": "Entrar",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                "Novo usuário? ",
+                <a
+                  href="#"
+>
+                  Cadastre-se
+</a>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Novo usuário? ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cadastre-se",
+                  "href": "#",
+                },
+                "ref": null,
+                "rendered": "Cadastre-se",
+                "type": "a",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Grid
+          style={
+                    Object {
+                              "height": "100%",
+                            }
+          }
+          textAlign="center"
+          verticalAlign="middle"
+>
+          <GridColumn
+                    style={
+                              Object {
+                                        "maxWidth": 450,
+                                      }
+                    }
+          >
+                    <Header
+                              as="h4"
+                              textAlign="center"
+                    >
+                              <Header
+                                        as="h1"
+                                        color="orange"
+                                        style={
+                                                  Object {
+                                                            "marginBottom": 16,
+                                                          }
+                                        }
+                              >
+                                        Amigo Secreto
+                              </Header>
+                               Acesse sua conta
+                    </Header>
+                    <Form
+                              as="form"
+                              size="large"
+                    >
+                              <Segment
+                                        stacked={true}
+                              >
+                                        <FormInput
+                                                  as={[Function]}
+                                                  control={[Function]}
+                                                  fluid={true}
+                                                  icon="user"
+                                                  iconPosition="left"
+                                                  id="email"
+                                                  onChange={[Function]}
+                                                  placeholder="E-mail"
+                                        />
+                                        <FormInput
+                                                  as={[Function]}
+                                                  control={[Function]}
+                                                  fluid={true}
+                                                  icon="lock"
+                                                  iconPosition="left"
+                                                  id="pass"
+                                                  onChange={[Function]}
+                                                  placeholder="Senha"
+                                                  type="password"
+                                        />
+                                        <Button
+                                                  as="button"
+                                                  color="orange"
+                                                  fluid={true}
+                                                  size="large"
+                                        >
+                                                  Entrar
+                                        </Button>
+                              </Segment>
+                    </Form>
+                    <Message>
+                              Novo usuário? 
+                              <a
+                                        href="#"
+                              >
+                                        Cadastre-se
+                              </a>
+                    </Message>
+          </GridColumn>
+</Grid>,
+        "className": "login-form",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <GridColumn
+            style={
+                        Object {
+                                    "maxWidth": 450,
+                                  }
+            }
+>
+            <Header
+                        as="h4"
+                        textAlign="center"
+            >
+                        <Header
+                                    as="h1"
+                                    color="orange"
+                                    style={
+                                                Object {
+                                                            "marginBottom": 16,
+                                                          }
+                                    }
+                        >
+                                    Amigo Secreto
+                        </Header>
+                         Acesse sua conta
+            </Header>
+            <Form
+                        as="form"
+                        size="large"
+            >
+                        <Segment
+                                    stacked={true}
+                        >
+                                    <FormInput
+                                                as={[Function]}
+                                                control={[Function]}
+                                                fluid={true}
+                                                icon="user"
+                                                iconPosition="left"
+                                                id="email"
+                                                onChange={[Function]}
+                                                placeholder="E-mail"
+                                    />
+                                    <FormInput
+                                                as={[Function]}
+                                                control={[Function]}
+                                                fluid={true}
+                                                icon="lock"
+                                                iconPosition="left"
+                                                id="pass"
+                                                onChange={[Function]}
+                                                placeholder="Senha"
+                                                type="password"
+                                    />
+                                    <Button
+                                                as="button"
+                                                color="orange"
+                                                fluid={true}
+                                                size="large"
+                                    >
+                                                Entrar
+                                    </Button>
+                        </Segment>
+            </Form>
+            <Message>
+                        Novo usuário? 
+                        <a
+                                    href="#"
+                        >
+                                    Cadastre-se
+                        </a>
+            </Message>
+</GridColumn>,
+          "style": Object {
+            "height": "100%",
+          },
+          "textAlign": "center",
+          "verticalAlign": "middle",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Header
+                as="h4"
+                textAlign="center"
+>
+                <Header
+                                as="h1"
+                                color="orange"
+                                style={
+                                                Object {
+                                                                "marginBottom": 16,
+                                                              }
+                                }
+                >
+                                Amigo Secreto
+                </Header>
+                 Acesse sua conta
+</Header>,
+              <Form
+                as="form"
+                size="large"
+>
+                <Segment
+                                stacked={true}
+                >
+                                <FormInput
+                                                as={[Function]}
+                                                control={[Function]}
+                                                fluid={true}
+                                                icon="user"
+                                                iconPosition="left"
+                                                id="email"
+                                                onChange={[Function]}
+                                                placeholder="E-mail"
+                                />
+                                <FormInput
+                                                as={[Function]}
+                                                control={[Function]}
+                                                fluid={true}
+                                                icon="lock"
+                                                iconPosition="left"
+                                                id="pass"
+                                                onChange={[Function]}
+                                                placeholder="Senha"
+                                                type="password"
+                                />
+                                <Button
+                                                as="button"
+                                                color="orange"
+                                                fluid={true}
+                                                size="large"
+                                >
+                                                Entrar
+                                </Button>
+                </Segment>
+</Form>,
+              <Message>
+                Novo usuário? 
+                <a
+                                href="#"
+                >
+                                Cadastre-se
+                </a>
+</Message>,
+            ],
+            "style": Object {
+              "maxWidth": 450,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "h4",
+                "children": Array [
+                  <Header
+                    as="h1"
+                    color="orange"
+                    style={
+                                        Object {
+                                                            "marginBottom": 16,
+                                                          }
+                    }
+>
+                    Amigo Secreto
+</Header>,
+                  " Acesse sua conta",
+                ],
+                "textAlign": "center",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "h1",
+                    "children": "Amigo Secreto",
+                    "color": "orange",
+                    "style": Object {
+                      "marginBottom": 16,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Amigo Secreto",
+                  "type": [Function],
+                },
+                " Acesse sua conta",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "form",
+                "children": <Segment
+                  stacked={true}
+>
+                  <FormInput
+                                    as={[Function]}
+                                    control={[Function]}
+                                    fluid={true}
+                                    icon="user"
+                                    iconPosition="left"
+                                    id="email"
+                                    onChange={[Function]}
+                                    placeholder="E-mail"
+                  />
+                  <FormInput
+                                    as={[Function]}
+                                    control={[Function]}
+                                    fluid={true}
+                                    icon="lock"
+                                    iconPosition="left"
+                                    id="pass"
+                                    onChange={[Function]}
+                                    placeholder="Senha"
+                                    type="password"
+                  />
+                  <Button
+                                    as="button"
+                                    color="orange"
+                                    fluid={true}
+                                    size="large"
+                  >
+                                    Entrar
+                  </Button>
+</Segment>,
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      fluid={true}
+                      icon="user"
+                      iconPosition="left"
+                      id="email"
+                      onChange={[Function]}
+                      placeholder="E-mail"
+/>,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      fluid={true}
+                      icon="lock"
+                      iconPosition="left"
+                      id="pass"
+                      onChange={[Function]}
+                      placeholder="Senha"
+                      type="password"
+/>,
+                    <Button
+                      as="button"
+                      color="orange"
+                      fluid={true}
+                      size="large"
+>
+                      Entrar
+</Button>,
+                  ],
+                  "stacked": true,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "fluid": true,
+                      "icon": "user",
+                      "iconPosition": "left",
+                      "id": "email",
+                      "onChange": [Function],
+                      "placeholder": "E-mail",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "fluid": true,
+                      "icon": "lock",
+                      "iconPosition": "left",
+                      "id": "pass",
+                      "onChange": [Function],
+                      "placeholder": "Senha",
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "as": "button",
+                      "children": "Entrar",
+                      "color": "orange",
+                      "fluid": true,
+                      "size": "large",
+                    },
+                    "ref": null,
+                    "rendered": "Entrar",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "Novo usuário? ",
+                  <a
+                    href="#"
+>
+                    Cadastre-se
+</a>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Novo usuário? ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Cadastre-se",
+                    "href": "#",
+                  },
+                  "ref": null,
+                  "rendered": "Cadastre-se",
+                  "type": "a",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
